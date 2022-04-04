@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features= "classpath:features",
 		glue= "steps",
-		tags="@TF_2",
+		tags="@TF_feature2",
 		monochrome= true,
 		dryRun= false,
 		plugin= {

@@ -13,7 +13,7 @@ When User enters password as "abc123"
 When User clicks on signin button
 Then  User should land on dashboard page
 
-@TF_2
+@TF_feature2
 Scenario: User shpould be able to login with valid credentials from Database
 When User enters "username" from database
 When User enters "password" from database
